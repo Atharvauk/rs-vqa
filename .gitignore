@@ -1,0 +1,35 @@
+# ---- dataset (never commit; use the download scripts) ----
+VRSBench_data/
+*.zip
+
+# ---- model weights (host on Hugging Face or a GitHub Release, not in git) ----
+**/qlora_adapter/
+**/qlora_adapter_v2/
+**/qlora_adapter_7b/
+**/qlora_adapter_7b_v2_epoch2/
+*.safetensors
+*.bin
+
+# ---- results / generated outputs ----
+**/results/
+*_tmp*.png
+_*.png
+
+# ---- large media (optional: host on a Release instead) ----
+*.mp4
+
+# ---- python junk ----
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# ---- secrets / env ----
+.env
+*.key
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

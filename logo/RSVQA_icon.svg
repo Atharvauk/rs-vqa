@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="1024" height="1024">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16213b"/><stop offset="1" stop-color="#0b1120"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <circle cx="128" cy="128" r="70" fill="url(#glow)"/>
+  <!-- orbit -->
+  <g transform="rotate(-22 128 128)">
+    <ellipse cx="128" cy="128" rx="94" ry="44" fill="none" stroke="#0e7490" stroke-width="5" opacity="0.9"/>
+    <circle cx="222" cy="128" r="9" fill="#99f6e4"/>
+  </g>
+  <!-- globe -->
+  <circle cx="128" cy="128" r="46" fill="none" stroke="#99f6e4" stroke-width="3" opacity="0.55"/>
+  <ellipse cx="128" cy="128" rx="46" ry="17" fill="none" stroke="#99f6e4" stroke-width="2.5" opacity="0.45"/>
+  <ellipse cx="128" cy="128" rx="17" ry="46" fill="none" stroke="#99f6e4" stroke-width="2.5" opacity="0.35"/>
+  <!-- detection brackets -->
+  <path d="M 92 58 L 58 58 L 58 92" fill="none" stroke="url(#g)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M 164 58 L 198 58 L 198 92" fill="none" stroke="url(#g)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M 92 198 L 58 198 L 58 164" fill="none" stroke="url(#g)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/><path d="M 164 198 L 198 198 L 198 164" fill="none" stroke="url(#g)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- target -->
+  <circle cx="128" cy="128" r="21" fill="none" stroke="url(#g)" stroke-width="5"/>
+  <circle cx="128" cy="128" r="11" fill="#99f6e4"/>
+</svg>

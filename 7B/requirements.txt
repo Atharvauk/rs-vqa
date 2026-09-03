@@ -1,0 +1,12 @@
+# CPU steps (1-5, 9, 10, 11)
+pillow
+matplotlib
+
+# GPU steps (6, 7, 8) — install these on Colab/Kaggle/your VM
+torch
+transformers>=4.49
+accelerate
+qwen-vl-utils
+bitsandbytes   # optional, only for --load-4bit
+peft           # only for step13 QLoRA fine-tuning
+gradio         # only for step14 demo front end

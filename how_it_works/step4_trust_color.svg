@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="512" height="512"><defs>
+ <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#16213b"/><stop offset="1" stop-color="#0b1120"/></linearGradient>
+ <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#0e7490"/></linearGradient>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#bae6fd"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient>
+ <linearGradient id="field" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#16a34a"/></linearGradient>
+ <linearGradient id="shield" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#15803d"/></linearGradient>
+ <clipPath id="frame"><rect x="40" y="46" width="176" height="140" rx="16"/></clipPath>
+ <clipPath id="frame3"><rect x="34" y="52" width="188" height="150" rx="16"/></clipPath>
+</defs><rect x="6" y="6" width="244" height="244" rx="34" fill="url(#tile)" stroke="#26324f" stroke-width="2"/>
+  <path d="M128 40 L196 66 V122 c0 46 -34 78 -68 96 c-34 -18 -68 -50 -68 -96 V66 Z" fill="url(#shield)"/>
+  <path d="M128 40 L196 66 V122 c0 46 -34 78 -68 96 c-34 -18 -68 -50 -68 -96 V66 Z" fill="none"
+        stroke="#bbf7d0" stroke-width="4" opacity="0.6"/>
+  <path d="M98 128 l22 24 l42 -50" fill="none" stroke="#ffffff" stroke-width="16"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#fde68a">
+    <path d="M196 52 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 Z"/>
+    <path d="M58 150 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 Z"/>
+  </g>
+</svg>

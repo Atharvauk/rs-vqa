@@ -1,0 +1,17 @@
+# Core
+torch>=2.4            # install the CUDA build for your GPU, e.g. --index-url https://download.pytorch.org/whl/cu128
+torchvision>=0.19
+transformers>=4.49
+accelerate>=0.34
+peft>=0.13
+bitsandbytes>=0.44
+qwen-vl-utils>=0.0.8
+
+# Demo / IO
+gradio>=5.0
+pillow>=10.0
+matplotlib>=3.8
+huggingface_hub>=0.25
+
+# (optional) only needed if you re-add an API scorer of your own
+openai>=1.40
